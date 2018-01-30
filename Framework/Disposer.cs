@@ -20,4 +20,5 @@ namespace Observer.Framework
                 _usuarios.Remove(_usuario);
         }
     }
+    
 }
