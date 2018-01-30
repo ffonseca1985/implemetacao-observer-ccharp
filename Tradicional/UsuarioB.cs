@@ -8,9 +8,6 @@ namespace Observer.Tradicional
         public void ReceberEmail()
         {
             Console.WriteLine("Email Recebido pelo usuario B");
-            
-            
         }
     }
-
 }
