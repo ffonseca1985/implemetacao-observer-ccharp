@@ -22,11 +22,16 @@ namespace Observer.Framework
             return new Disposer(_usuarios, usuario);
         }
 
+        
 
 
 
         public void EnviarEmail()
         {
+        
+        
+        
+        
             _email.Descricao = "Email Recebido pelo usuário ";
 
             foreach (IObserver<Email> usuario in _usuarios)
