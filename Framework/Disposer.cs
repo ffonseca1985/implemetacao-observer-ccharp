@@ -12,6 +12,8 @@ namespace Observer.Framework
         {
             _usuarios = usuarios;
             _usuario = usuario;
+            
+            
         }
 
         public void Dispose()
