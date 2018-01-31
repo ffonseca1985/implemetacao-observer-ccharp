@@ -12,6 +12,9 @@ namespace Observer.Framework
         {
             _usuarios = new List<IObserver<Email>>();
             _email = email;
+            
+            
+            
         }
 
         public IDisposable Subscribe(IObserver<Email> usuario)
