@@ -11,6 +11,8 @@ namespace Observer.Framework
         public Disposer(List<IObserver<Email>> usuarios, IObserver<Email> usuario)
         {
             _usuarios = usuarios;
+            
+            
             _usuario = usuario;
             
          
